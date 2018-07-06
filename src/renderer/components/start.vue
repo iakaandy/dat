@@ -59,7 +59,7 @@
         var mirror = require('mirror-folder')
         var ram = require('random-access-memory')
         var Dat = require('dat')
-        var dest = path.join(__dirname, 'tmp')
+        var dest = path.join('/', 'tmp')
         // fs.mkdirSync(dest)
         const data = this.formValidate
         data.load_result = ''
